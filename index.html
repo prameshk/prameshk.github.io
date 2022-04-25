@@ -35,7 +35,7 @@ To do list:
 						<a href="index.html#teaching">TEACHING</a>
 						<a href="index.html#service">PICTURES</a>
 						<!-- <a href="exact.html">X-REVIEW</a> -->
-						<a href="pdfs/Randolph_CV.pdf">CV</a>
+						<a href="pdfs/cv.pdf">CV</a>
 						<a href="blog.html">BLOG</a>
 					</div>
 				</div>
@@ -58,25 +58,22 @@ To do list:
 							<a href="http://umntransit.weebly.com/">Transit Lab</a>
 							at the University of Minnesota, advised by <a href="https://cse.umn.edu/cege/faculty/alireza-khani">Alireza Khani</a>. </p>
 
-							<p> I'm interested in Public Transit. </p>
+							<p> In general, I'm interested in Emerging Public Transit Technologies. Specifically, I'm interested in</p>
 
-							<p>
-							Things I'm actively thinking about:
 							<ul>
-								<li class="uncollapsible"> Faster exact algorithms for Subset Sum and other hard problems </li>
-								<li class="uncollapsible"> Innovation, accessibility, and societal orientation of CS teaching </li>
-								<li class="uncollapsible"> Best practices for equity in CS teaching, evaluation, and admissions </li>
+								<li class="uncollapsible"> Transit operations and planning </li>
+								<li class="uncollapsible"> Transit integration with emerging modes (ridesharing, autonomous vehicles, drones, etc.) </li>
+								<li class="uncollapsible"> Uncertainty modeling in transportation </li>
+								<li class="uncollapsible"> Transportation systems optimization </li>
 							</ul>
 							</p>
 
 							<p>
-								Interested in pursuing a PhD in (theoretical) computer science?
-								Here's <a href="https://columbiauniversity.zoom.us/rec/play/6Md4d-75rDs3H9TEuASDBPB6W9W1KKish3cf8_oKxEaxBnBROlGvb7cTYrEfHD375SA0AyQH-QKZDi4Q?startTime=1593118463000">a talk</a> (<a href="https://docs.google.com/presentation/d/1kqNeNd2k3NPMSDnjbcpHqnaUdrlkvissISfp8KuWxv8/edit?usp=sharing">slides</a>) I gave for Columbia's Demystifying the Dissertation series on the experience of doing research in theory and PhD life more generally, and <a href="https://columbiauniversity.zoom.us/rec/play/XBUyJNEoY2JbnD6ghjU9JqiO583oFqVWtQ-xe4Vqbrg15FIOTK9bRwoXOkdKTF1kM0igweJhq43hZeBN.WlZCnJSOhojXSKNG?startTime=1605715010000">here's one</a> (<a href="https://docs.google.com/presentation/d/1cQFUCOmpvU-JWrSdWzWfGklYAHm9zvWnFeAYwg5CxUY/edit?usp=sharing">slides</a>) from a later iteration of the series that discusses the application process in a little more detail. If you're ready to explore the possibilities of a PhD in CS, here's <a href="https://docs.google.com/document/d/1GXvqKux299Xuw-BSYl3C718n1E85t5q5_mnXhpaiyBo/edit?usp=sharing">
-								some advice</a> on considering and applying to grad school that I wrote shortly after deciding to join Columbia.
+								My research develops routing algorithms...
 							</p>
 
 							<p>
-							If you'd like to chat, please email me at the address at the bottom of the page. I'll answer if time permits and I'm well-positioned to give you a helpful response.
+							If you'd like to chat, please email me at [LAST NAME]372@umn.edu.
 							</p>
 						</div>
 					</div>
@@ -89,104 +86,242 @@ To do list:
 						</div>
 						<a class="anchor" name="research"></a>
 
+						<div class=subsection>
+							<div class=lalign>
+								<h3> Doctoral Dissertation </h3>
+							</div>
+							<ul>
+								<li class="collapsible">
+									"Modeling and Design of Integrated Transit Systems with Strategic Passenger Behavior" 2022. <a style="float:right" href="https://arxiv.org/abs/2110.14607">PDF</a>
+								</li>
+								<div class="content">
+									<br />
+									<img src="img/tapp1.jpg" width="300"/>
+									Experimental evidence shows that the uncertainty in travel time causes transit passengers
+									to employ "strategies" when traveling between various origin-destination pairs.
+									Such strategic behavior helps passengers adapt to the varying traffic conditions in the
+									network. The current dissertation develops modeling frameworks to predict strategic
+									passenger behavior in stochastic and time-dependent transit networks and use it for the
+									design and long-term planning of integrated transit systems. It makes four principal
+									contributions. First, it develops routing algorithms to describe the strategic behavior
+									of transit and park-and-ride passengers using online information about road congestion
+									and bus arrival at stops when traveling in a stochastic and time-dependent network.
+									Second, to predict the average passenger flow on each link of the network, it develops a
+									schedule-based transit assignment models with online information for uncapacitated and
+									capacitated transit networks. Third, it proposes an optimization model to design transit
+									routes' alignment and corresponding frequencies incorporating the strategic passenger
+									behavior. Fourth, it develops an optimization model to design an integrated MoD and
+									transit systems to decide which transit routes to operate, the frequency of operating
+									transit routes, and the MoD fleet size required to address the transit first-mile last-mile
+									problem. Efficient algorithms are devised to solve the proposed models. Numerical
+									experiments show that the park-and-ride passengers commuting from suburban regions
+									to Downtown Minneapolis can save around 36 hours every year by employing strategic
+									routing. The transit assignment results show complex passenger behavior as passengers
+									consider alternative routes to avoid missing transfers and denied boarding due to congestion.
+									Finally, the design results show a signicant improvement in the congestion in
+									the city center of the City of Sioux Falls with the introduction and optimization of the
+								</div>
+							 </ul>
+
+							 <div class=subsection>
+	 							<div class=lalign>
+	 								<h3> Master's Thesis </h3>
+	 							</div>
+	 							<ul>
+	 								<li class="collapsible">
+	 									"Transit Origin Destination Estimation using Automated Data" 2019. <a style="float:right" href="https://conservancy.umn.edu/bitstream/handle/11299/206699/Kumar_umn_0130M_20368.pdf?sequence=1&isAllowed=y">PDF</a>
+	 								</li>
+	 								<div class="content">
+	 									<br />
+	 									<img src="img/green_am_E.PNG" width="300"/>
+	 									Development of an origin-destination (OD) demand matrix is crucial for transit planning. The development process is facilitated by transit automated data, making it possible to mine boarding and alighting patterns on an individual basis. This thesis presents novel methods for estimating transit OD matrix using automatically collected data. Depending on the type of transit automated data, there are two methods presented. A novel trip chaining method which uses Automatic Fare Collection (AFC), Automatic Vehicle Location (AVL), and General Transit Feed Specification (GTFS) data is proposed to infer the most likely trajectory of individual transit passenger. The method relaxes the assumptions on various parameters used in the existing trip chaining algorithms such as transfer walking distance threshold, buffer distance for selecting the boarding location, the time window for selecting the vehicle trip, etc. The thesis also proposes a method for estimating the transit route origin-destination (OD) matrix utilizing Automatic Passenger Count (APC) data. It uses $l_0$ norm regularizer, which leverages the sparsity present in the actual OD matrix. The technique is popularly known as compressed sensing (CS). The applications of both methods using automated data from Twin Cities, MN are also presented. The results show improved accuracy and more inference rate in calculating the OD matrix using trip chaining. Similarly, compressed sensing was found to work impressively well in evaluating transit route OD matrix within small errors.
+	 								</div>
+	 							 </ul>
+
+
+
 						<!--<h3> &nbsp; conference papers </h3> -->
+
+						<div class=subsection>
+							<div class=lalign>
+								<h3> Publications </h3>
+							</div>
 
 						<ul>
 							<li class="collapsible">
-								Xi Chen, Yaonan Jin, Tim Randolph, and Rocco Servedio.
-								"Average-Case Subset Balancing Problems." <i> SODA </i> 2022. <a style="float:right" href="https://arxiv.org/abs/2110.14607">arXiv version</a>
+								Pramesh Kumar and Alireza Khani.
+								"Schedule-based Transit Assignment with Online Information" <i> Under review </i> 2022. <a style="float:right" href="https://arxiv.org/abs/2110.14607">PDF</a>
 							</li>
 							<div class="content">
 								<br />
-								<img src="img/gss.PNG" width="450"/>
+								<img src="img/uncapacitated_flow-1.PNG" width="450"/>
 
-								<p>Given a set of \(n\) input integers, the <i>Equal Subset Sum</i> problem asks us to find two distinct subsets with the same sum. In this paper we present an algorithm that runs in time \(O^*(3^{0.387n})\) in the~average case, significantly improving over the \(O^*(3^{0.488n})\) running time of the best known worst-case algorithm and the  Meet-in-the-Middle benchmark of \(O^*(3^{0.5n})\). </p>
-
-								<p>Our algorithm generalizes to a number of related problems, such as the <i>Generalized Equal Subset Sum</i> problem, which asks us to assign a coefficient \(c_i\) from a set \(C\) to each input number \(x_i\) such that \(\sum_{i} c_i x_i = 0\). Our algorithm for the average-case version of this problem runs in~time \(|C|^{(0.5-c_0/|C|)n}\) for some positive constant \(c_0\), whenever  \(C=\{0, \pm 1, \dots, \pm d\}\) or \(\{\pm 1, \dots, \pm d\}\) for some positive integer \(d\) (with \(O^*(|C|^{0.45n})\) when \(|C|&lt;10\)).
-								Our results extend to the~problem of finding "nearly balanced" solutions in which the target is a not-too-large nonzero offset \(\tau\).</p>
-
-								<p>Our approach relies on new structural results that characterize the probability that \(\sum_{i} c_i x_i =\tau\) has a solution \(c \in C^n\) when \(x_i\)'s are chosen randomly; these results may be of independent interest. Our algorithm is inspired by the "representation technique"  introduced by Howgrave-Graham and Joux. This requires several new ideas to overcome preprocessing hurdles that arise in the representation framework, as well as a novel application of dynamic programming in the solution recovery phase of the algorithm.</p>
+								Most public transportation services deviate from the published schedule. To cope with the delay caused by the unreliable service, passengers use online information about the bus arrival time that affects their route choice behavior. Current schedule-based transit assignment models fail to capture the passengers' adaptive response to unreliable service, which causes an inaccurate estimation of passenger wait time and passenger loads on various transit routes. The current study proposes schedule-based transit assignment models that incorporate online bus arrival information when modeling the passenger route choice in a stochastic and time-dependent transit network. We propose that passengers employ strategies when traveling between different origin-destination pairs not only due to the limited capacity of vehicles but also to cope with the transit delay. The passenger routing problem is modeled as a Markov Decision Process, and efficient algorithms are proposed to solve this problem. Depending on the vehicle capacity, two types of assignment models are presented, namely, uncapacitated and capacitated assignments. When penalties for arriving at the destination outside the arrival time window are not applied, the uncapacitated assignment problem is formulated as a linear program. On the other hand, the capacitated assignment is formulated as a variational inequality problem, for which an efficient MSA-based heuristic solution algorithm is proposed. Computational experiments are presented for a schedule-based transit network.
 							</div>
 
-							<li type="button" class="uncollapsible">
-								Marshall Ball and Tim Randolph.
-								"Communication Lower Bounds for Many-Party PSM." <i> ITC </i> 2022.
+							<li class="collapsible">
+								Pramesh Kumar and Alireza Khani.
+								"An Exact Method for Solving the Bi-level transit Network Design Problem" <i> Under review </i> 2022.
 								<!-- <a style="float:right" href="">arXiv version</a> -->
 							</li>
 
-							<li type="button" class="collapsible">
-								Nick Arnosti and Tim Randolph.
-								"Parallel Lotteries: Insights from Alaskan Hunting Permit Allocation." <i> Management Science </i> 2021; <i> EC </i> 2021.
-								<a <a style="float:right" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3370605">SSRN version</a>
-							</li>
 							<div class="content">
 								<br />
-								<img src="img/ktix.PNG" width="450"/>
+								<img src="img/flow_chart-1.PNG" width="450"/>
 
-								<p>We analyze the \(k\)-ticket lottery, which is used to allocate hunting permits in the state of Alaska. Each participant is given \(k\) tickets to distribute among lotteries for different types of items. Participants who win multiple items receive their favorite, and new winners are drawn from the lotteries with unclaimed items.</p>
-
-								<p>When supply is scarce, equilibrium outcomes of the \(k\)-ticket lottery approximate a competitive equilibrium from equal incomes (CEEI), which is Pareto efficient. When supply is moderate, \(k\)-ticket lotteries exhibit two sources of inefficiency. First, some agents may benefit from trading probability shares. Second, outcomes may be "wasteful": agents may receive nothing even if acceptable items remain unallocated. We bound both sources of inefficiency, and show that each is eliminated by a suitable choice of \(k\): trades are never beneficial when \(k=1\), and waste is eliminated as \(k\) approaches infinity.</p>
-
-								<p>The wastefulness of the \(k\)-ticket lottery has some benefits: agents with strong preferences may prefer \(k\)-ticket lottery outcomes to those of any nonwasteful envy-free mechanism. These agents prefer small values of \(k\), while agents with weak preferences prefer large values of \(k\). Together, these results suggest that the \(k\)-ticket lottery performs well under most circumstances, and may be suitable for other settings where items are rationed.</p>
+								Transit network design is the fundamental problem that involves finding routes and corresponding frequencies in a transportation network to serve a given demand cost-effectively. It would be na\"ive for a transit agency to design a network without incorporating passenger behavior. The current study captures the passenger behavior in the network design by proposing a bi-level transit network design model. It considers both passengers' and operator's perspectives in the upper level, including passenger travel time, limited bus fleet, the operating cost of buses, bus capacity, road capacity, and the number of transfers experienced by passengers. The lower level problem is the optimal strategy frequency-based transit assignment model. The design model outputs the optimal transit routes and their operating frequencies. Due to its complexity, the current research develops a tailored branch-and-benders cut algorithm to solve the problem. Numerical experiments on different network instances show the promising performance of the proposed method.
 							</div>
 
 							<li type="button" class="collapsible">
-								Xi Chen, Tim Randolph, Rocco Servedio, and Tim Sun.
-								"A Lower Bound on Cycle Finding in Sparse Digraphs." <i> SODA </i> 2020.
+								Xinlian Yu, Pramesh Kumar, Alireza Khani, Jingxu Chen.
+								"An Integrated Framework for Locating Depots in Shared Autonomous Vehicle Systems" <i> Under review </i> 2022.
+								<a <a style="float:right" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4036558">SSRN version</a>
+							</li>
+							<div class="content">
+								<br />
+								<img src="img/demand-depot-net.PNG" width="450"/>
+								This study presents an integrated framework for locating depots in a Shared autonomous vehicle (SAV) system under demand uncertainty. A two-stage stochastic mixed integer programming (MIP) model is formulated to optimize the number and locations of depots in a SAV system, where demand uncertainty is represented by multiple scenarios with occurrence probability. Unlike previous studies that consider station-based vehicle relocations, we take into account the dynamics of vehicle movements in the transportation network by forming a trip chain for each AV. This feature, while useful in bringing the model closer to reality, significantly increases the dimension of the problem and thus raise challenges for solving the model efficiently for large-scale problems. An enhanced Benders decomposition-based algorithm with multiple Pareto-optimal cuts via multiple solutions is developed to solve the proposed model. The proposed modelling framework and the solution algorithm are tested using two different sizes of transportation networks. Computational analysis demonstrates that the proposed algorithm is able to handle relatively large instances within acceptable computational cost, and the algorithm is more efficient than the classic Benders algorithm and directly solving the MIP model. Meanwhile, meaningful insights regarding the optimal deployment of depots in SAV systems are also delivered under different parametric and demand pattern settings.
+
+							</div>
+
+							<li type="button" class="collapsible">
+								Pramesh Kumar and Alireza Khani.
+								"Planning of integrated mobility-on-demand and urban transit networks." <i> SODA </i> 2020.
 								<a style="float:right" href="https://arxiv.org/abs/1907.12106">arXiv version</a>
 							</li>
 							<div class="content">
 								<br />
-								<img src="img/cycle-finding.png" width="450"/>
+								<img src="img/transitFlow.png" width="450"/>
 
-								<p>We consider the problem of finding a cycle in a sparse directed graph \(G\) that is promised to be far from acyclic, meaning that the smallest feedback arc set in \(G\) is large. We prove an information-theoretic lower bound, showing that for \(N\)-vertex graphs with constant outdegree any algorithm for this problem must make \(\tilde{\Omega}(N^{5/9})\) queries to an adjacency list representation of \(G\). In the language of property testing, our result is an \(\tilde{\Omega}(N^{5/9})\) lower bound on the query complexity of one-sided algorithms for testing whether sparse digraphs with constant outdegree are far from acyclic. This is the first improvement on the \(\tilde{\Omega}(\sqrt{N})\) lower bound, implicit in Bender and Ron, which follows from a simple birthday paradox argument.</p>
-							</div>
+								             We envision a multimodal transportation system where Mobility-on-Demand (MoD) service is used to serve the first mile and last mile of transit trips. For this purpose, the current research formulates an optimization model for designing an integrated MoD and urban transit system. The proposed model is a mixed-integer non-linear programming model that captures the strategic behavior of passengers in a multimodal network through a passenger assignment model. It determines which transit routes to operate, the frequency of the operating routes, the fleet size of vehicles required in each transportation analysis zone to serve the demand, and the passenger flow on both road and transit networks. A Benders decomposition approach with several enhancements is proposed to solve the given optimization program. Computational experiments are presented for the Sioux Falls multimodal network. The results show a significant improvement in the congestion in the city center with the introduction and optimization of the integrated transportation system. It improves the total number of served passengers and their level of service in comparison to the base optimized transit system. Finally, managerial insights for deploying such multimodal service are provided.
+													 		</div>
 
 							<li type="button" class="collapsible">
-								Emilio Di Giacomo, William J. Lenhart, Giuseppe Liotta, Timothy W. Randolph and Alessandra Tappini.
-								"(k,p)-Planarity: A Relaxation of Hybrid Planarity." <i> WALCOM </i> 2019.
-								<a style="float:right" href="https://arxiv.org/abs/1806.11413v2">arXiv version</a>
+								Pramesh Kumar and Alireza Khani.
+								"Adaptive park-and-ride choice on time-dependent stochastic multimodal transportation network." <i> Networks and Spatial Economics </i> 21, 771-800, 2021.
+								<a style="float:right" href="https://link.springer.com/article/10.1007/s11067-021-09545-6">Journal</a>
 							</li>
 							<div class="content">
 								<br />
-								<img src="img/kpp.png" width="450"/>
+								<img src="img/i394.png" width="450"/>
 
-								<p> We present a new model for hybrid planarity that relaxes existing hybrid representations. A graph \(G=(V,E)\) is \((k,p)\)-planar if \(V\) can be partitioned into clusters of size at most \(k\) such that \(G\) admits a drawing where: (i) each cluster is associated with a closed, bounded planar region, called a cluster region; (ii) cluster regions are pairwise disjoint, (iii) each vertex \(v \in V\) is identified with at most \(p\) distinct points, called <i>ports</i>, on the boundary of its cluster region; (iv) each inter-cluster edge \((u,v)\in E\) is identified with a Jordan arc connecting a port of \(u\) to a port of \(v\); (v) inter-cluster edges do not cross or intersect cluster regions except at their endpoints. We first tightly bound the number of edges in a \((k,p)\)-planar graph with \(p&lt;k\). We then prove that \((4,1)\)-planarity testing and \((2,2)\)-planarity testing are NP-complete problems. Finally, we prove that neither the class of \((2,2)\)-planar graphs nor the class of \(1\)-planar graphs contains the other, indicating that the \((k,p)\)-planar graphs are a large and novel class.</p>
-							</div>
-
-							<li type="button" class="collapsible">
-								Timothy W. Randolph.
-								"Asymptotically Optimal Bounds for \((t,2)\) Broadcast Domination on Finite Grids."
-								<i> Rose-Hulman Undergraduate Mathematics Journal </i> 20, 2019.
-								<a style="float:right" href="https://arxiv.org/abs/1805.06058">arXiv version</a>
-							</li>
-							<div class="content">
-								<p> Let \(G=(V,E)\) be a graph and \(t,r\) be positive integers. The <i>signal</i> that a tower vertex \(T\) of signal strength \(t\) supplies to a vertex \(v\) is defined as \(sig(T,v)=max(t−dist(T,v),0)\), where \(dist(T,v)\) denotes the distance between the vertices \(v\) and \(T\). In 2015 Blessing, Insko, Johnson, and Mauretour defined a <i>\((t,r)\) broadcast dominating set</i>, or simply a <i>\((t,r)\) broadcast</i>, on \(G\) as a set \(T \subseteq V\) such that the sum of all signals received at each vertex \(v\in V\) from the set of towers \(T\) is at least \(r\). The \((t,r)\) broadcast domination number of a finite graph \(G\), denoted \(\gamma_{t,r}(G)\), is the minimum cardinality over all \((t,r)\) broadcasts for \(G\). </p>
-
-								<p> Recent research has focused on bounding the \((t,r)\) broadcast domination number for the \(m \times n\) grid graph \(G_{m,n}\). In 2014, Grez and Farina bounded the \(k\)-distance domination number for grid graphs, equivalent to bounding \(\gamma_{t,1}(G_{m,n})\). In 2015, Blessing et al. established bounds on \(\gamma_{2,2}(G_{m,n})\), \(\gamma_{3,2}(G_{m,n})\), and \(\gamma_{3,3}(G_{m,n})\). In this paper, we take the next step and provide a tight upper bound on \(\gamma_{t,2}(G_{m,n})\) for all \(t&gt;2\). We also prove the conjecture of Blessing et al. that their bound on \(\gamma_{3,2}(G_{m,n})\) is tight for large values of \(m\) and \(n\). </p>
-							</div>
+							In transportation networks with stochastic and dynamic travel times, park-and-ride decisions are often made adaptively considering the realized state of traffic. That is, users continue driving towards their destination if the congestion level is low, but may consider taking transit when the congestion level is high. This adaptive behavior determines whether and where people park-and-ride. We propose to use a Markov decision process to model the problem of commuters’ adaptive park-and-ride choice behavior in a transportation network with time-dependent and stochastic link travel times. The model evaluates a routing policy by minimizing the expected cost of travel that leverages the online information about the travel time on outgoing links in making park-and-ride decisions. We provide a case study of park-and-ride facilities located on freeway I-394 in Twin Cities, Minnesota. The results show a significant improvement in the travel time by the use of park-and-ride during congested conditions. It also reveals the time of departure, the state of the traffic, and the location from where park-and-ride becomes an attractive option to the commuters. Finally, we show the benefit of using online routing in comparison to an offline routing algorithm.							</div>
 
 							<li type="button" class="collapsible">
-								Benjamin F. Drews, Pamela E. Harris, and Timothy W. Randolph.
-								"Optimal \((t,r)\) Broadcasts on the Infinite Grid."
-								<i>Discrete Applied Mathematics </i> 255, 2018.
-								<a style="float:right" href="https://arxiv.org/abs/1711.11116">arXiv version</a>
+								Pramesh Kumar, Alireza Khani, Eric Lind, and John Levin.
+								"Estimation and mitigation of epidemic risk on a public transit route using automatic passenger count data."
+								<i> Transportation Research Record,  </i> 2675(5):94-106, 2021.
+								<a style="float:right" href="https://journals.sagepub.com/doi/pdf/10.1177/0361198120985133">PDF</a>
 							</li>
 							<div class="content">
 								<br />
-								<img src="img/trb.png" width="450"/>
-
-								<p> Let \(G=(V,E)\) be a graph and \(t,r\) be positive integers. The <i>signal</i> that a tower vertex \(T\) of signal strength \(t\) supplies to a vertex \(v\) is defined as \(sig(T,v)=max(t−dist(T,v),0)\), where \(dist(T,v)\) denotes the distance between the vertices \(v\) and \(T\). In 2015 Blessing, Insko, Johnson, and Mauretour defined a <i>\((t,r)\) broadcast dominating set</i>, or simply a <i>\((t,r)\) broadcast</i>, on \(G\) as a set \(T \subseteq V\) such that the sum of all signals received at each vertex \(v\in V\) from the set of towers \(T\) is at least \(r\). We say that \(T\) is optimal if \(|T|\) is minimal among all such sets \(T\). The cardinality of an optimal \((t,r)\) broadcast on a finite graph \(G\) is called the \((t,r)\) broadcast domination number of \(G\). The concept of \((t,r)\) broadcast domination generalizes the classical problem of domination on graphs. In fact, the \((2,1)\) broadcasts on a graph G are exactly the dominating sets of \(G\). </p>
-
-								<p> In their paper, Blessing et al. considered \((t,r) \in \{(2,2),(3,1),(3,2),(3,3)\}\) and gave optimal \((t,r)\) broadcasts on \(G_{m,n}\), the grid graph of dimension \(m\times n\), for small values of \(m\) and \(n\). They also provided upper bounds on the optimal \((t,r)\) broadcast numbers for grid graphs of arbitrary dimensions. In this paper, we define the density of a \((t,r)\) broadcast, which allows us to provide optimal \((t,r)\) broadcasts on the infinite grid graph for all \(t \geq 2\) and \(r=1,2\), and bound the density of the optimal \((t,3)\) broadcast for all \(t \geq 2\). In addition, we give a family of counterexamples to the conjecture of Blessing et al. that the optimal \((t,r)\) and \((t+1,r+2)\) broadcasts are identical for all \(t \geq 1\) and \(r \geq 1\) on the infinite grid. </p>
+								<img src="img/commRoute5.png" width="450"/>
+								<p>This paper studies the potential spread of infectious disease through passenger encounters in a public transit system using automatic passenger count (APC) data. An algorithmic procedure is proposed to evaluate three different measures to quantify these encounters. The first two measures quantify the increased possibility of disease spread from passenger interaction when traveling between different origin–destination pairs. The third measure evaluates an aggregate measure quantifying the relative risk of boarding at a particular stop of the transit route. For calculating these measures, compressed sensing is employed to estimate a sparse passenger flow matrix planted in the underdetermined system of equations obtained from the APC data. Using the APC data of Route 5 in Minneapolis/St. Paul region during the COVID-19 pandemic, it was found that all three measures grow abruptly with the number of passengers on board. The passenger contact network is densely connected, which further increases the potential risk of disease transmission. To reduce the relative risk, it is proposed to restrict the number of passengers on-board and analyze the effect of this using a simulation framework. It was found that a considerable reduction in the relative risk can be achieved when the maximum number of passengers on-board is restricted below 15. To account for the reduced capacity and still maintain reasonable passenger wait times, it would then be necessary to increase the frequency of the route. </p>
 							</div>
 
-							<li type="button" class="uncollapsible">
-								Timothy W. Randolph, advised by William J. Lenhart.
-								"\((k,p)\)-Planar Graphs: A Generalization of Planar Representations for Cluster Graphs."
-								2018.
+							<li type="button" class="collapsible">
+								Pramesh Kumar and Alireza Khani.
+								"An algorithm for integrating peer-to-peer ridesharing and schedule-based transit system for first mile/last mile access."
+								<i> Transportation Research Part C: Emerging Technologies,  </i> 122, 102891, 2021.
+								<a style="float:right" href="https://arxiv.org/pdf/2007.07488.pdf">arXiv version</a>
+							</li>
+							<div class="content">
+								<br />
+								<img src="img/trs.png" width="450"/>
+
+								<p>  Due to limited transit network coverage and infrequent service, suburban commuters often face the transit first mile/last mile (FMLM) problem. To deal with this, they either drive to a park-and-ride location to take transit, use carpooling, or drive directly to their destination to avoid inconvenience. Ridesharing, an emerging mode of transportation, can solve the transit first mile/last mile problem. In this setup, a driver can drive a ride-seeker to a transit station, from where the rider can take transit to her respective destination. The problem requires solving a ridesharing matching problem with the routing of riders in a multimodal transportation network. We develop a transit-based ridesharing matching algorithm to solve this problem. The method leverages the schedule-based transit shortest path to generate feasible matches and then solves a matching optimization program to find an optimal match between riders and drivers. The proposed method not only assigns an optimal driver to the rider but also assigns an optimal transit stop and a transit vehicle trip departing from that stop for the rest of the rider’s itinerary. We also introduce the application of space-time prism (STP) (the geographical area which can be reached by a traveler given the time constraints) in the context of ridesharing to reduce the computational time by reducing the network search. An algorithm to solve this problem dynamically using a rolling horizon approach is also presented. We use simulated data obtained from the activity-based travel demand model of Twin Cities, MN to show that the transit-based ridesharing can solve the FMLM problem and save a significant number of vehicle-hours spent in the system.  </p>
+						</div>
+
+							<li class="collapsible">
+								Pramesh Kumar and Alireza Khani.
+								"Evaluating Special Event Transit Demand: A Robust Principal Component Analysis Approach."
+								<i> IEEE Transactions on Intelligent Transportation Systems, </i> vol. 22, no. 12, pp. 7370-7382, Dec. 2021.
 								<a style="float:right" href="pdfs/(k,p)-planar-thesis.pdf">PDF version</a>
 							</li>
+							<div class="content">
+								<br />
+								<img src="img/L_heatmap_SB.png" width="450"/>
+
+								<p>  The special events such as games, concerts, state fairs, etc. attract a large amount of population, which requires proper planning of transit services to meet the induced demand. Previous studies have proposed methods for estimating an average daily weekday demand, which have an inherent disadvantage in estimating the demand for a special event. We solve an idealized version of this problem i.e., we decompose a special event affected demand matrix into a regular and an outlier matrix. We start with detecting the special events in large scale transit data using the Mahalanobis distance, an outlier detection method for high dimensional data. Then, a special event demand is evaluated using state-of-the-art dimensionality reduction technique known as robust principal component analysis (RPCA), which is formulated as a convex optimization program. We show the application of the proposed method using Automatic Passenger Count (APC) data from Twin Cities, MN, USA. The methods are general and can be applied to any type of data related to the flow of passengers available with respect to time. Of practical interest, the methods are scalable to large-scale transit systems.  </p>
+						</div>
+
+
+						<li class="collapsible">
+							Pramesh Kumar and Alireza Khani.
+							"Estimation of Passenger Wait Time using Automatically Collected Transit Data."
+							<i> Public Transport, </i> 12, 299-311, 2020.
+							<a style="float:right" href="pdfs/(k,p)-planar-thesis.pdf">PDF version</a>
+						</li>
+						<div class="content">
+							<br />
+							<img src="img/delay.png" width="450"/>
+
+							<p>  Among the many ways to improve a transit system is a reduction in travel time as
+									experienced by the passenger. Hence, passenger waiting times remain a topic of
+									interest among transit planners. In this study, the effects of transit vehicle delays on
+									passenger waiting time is investigated, as well as the effects of transfer status, boarding
+									location, time of day, and rider travel frequency. The data used in this study
+									were collected using automatic fare collection (AFC) and automatic vehicle location
+									(AVL) technology. A trip chaining algorithm is used to infer the trajectory of each
+									passenger, and as a result produce measures of passenger waiting time and vehicle
+									delay. An analysis of an arterial Bus Rapid Transit (aBRT) line in Saint Paul, Minnesota
+									reveals a waiting time model consistent with previous literature, a positive
+									relationship between vehicle delay and passenger waiting time, and an insignificant
+									relationship between transfer status and passenger waiting time. Finally, a simple
+									model relating waiting time and vehicle delay is provided for the purpose of transit
+									planning and waiting time estimation.  </p>
+					</div>
+
+					<li class="collapsible">
+						Pramesh Kumar, Alireza Khani and Gary Davis.
+						"Transit Route Origin-Destination Matrix Estimation using Compressed Sensing."
+						<i> Transportation Research Record, </i> 2673(10):164-174, 2019.
+						<a style="float:right" href="pdfs/(k,p)-planar-thesis.pdf">PDF version</a>
+					</li>
+					<div class="content">
+						<br />
+						<img src="img/Figure 9.png" width="450"/>
+
+						<p>  The development of an origin–destination (OD) demand matrix is crucial for transit planning. With the help of automated
+							data, it is possible to estimate a stop-level OD matrix. We propose a novel method for estimating transit route OD matrix
+							using automatic passenger count (APC) data. The method uses l0 norm regularizer, which leverages the sparsity in the actual
+							OD matrix. The technique is popularly known as compressed sensing (CS). We also discuss the mathematical properties of
+							the proposed optimization program and the complexity of solving it.We used simulation to assess the accuracy and efficiency
+							of the method and found that the proposed method is able to recover the actual matrix within small errors. With increased
+							sparsity in the actual OD matrix, the solution gets closer to the actual value of the matrix. The method was found to perform
+							more efficiently even for different demand patterns. We also present a real numerical example of OD estimation of the A
+							Line Bus Rapid Transit (BRT) route in Twin Cities, MN.  </p>
+											</div>
+
+				<li class="collapsible">
+					Pramesh Kumar, Alireza Khani, and Qing He.
+					"A Robust Estimation of Transit Passenger Trajectories using Automated Data."
+					<i> Transportation Research Part C: Emerging Technologies, </i> 95: 731-747, 2018.
+					<a style="float:right" href="https://par.nsf.gov/servlets/purl/10109454">PDF version</a>
+				</li>
+				<div class="content">
+					<br />
+					<img src="img/green_am_E.png" width="450"/>
+
+					<p>  Development of an origin-destination demand matrix is crucial for transit planning. The development process is facilitated by automated transit smart card data, making it possible to mine
+						boarding and alighting patterns on an individual basis. This research proposes a novel trip
+						chaining method which uses Automatic Fare Collection (AFC) and General Transit Feed
+						Specification (GTFS) data to infer the most likely trajectory of individual transit passengers. The
+						method relaxes the assumptions on various parameters used in the existing trip chaining algo-
+						rithms such as transfer walking distance threshold, buffer distance for selecting the boarding
+						location, time window for selecting the vehicle trip, etc. The method also resolves issues related
+						to errors in GPS location recorded by AFC systems or selection of incorrect sub-route from GTFS
+						data. The proposed trip chaining method generates a set of candidate trajectories for each AFC
+						tag to reach the next tag, calculates the probability of each trajectory, and selects the most likely
+						trajectory to infer the boarding and alighting stops. The method is applied to transit data from the
+						Twin Cities, MN, which has an open transit system where passengers tap smart cards only once
+						when boarding (or when alighting on pay-exit buses). Based on the consecutive tags of the
+						passenger, the proposed algorithm is also modified for pay-exit cases. The method is compared to
+						previous methods developed by the researchers and shows improvement in the number of in-
+						ferred cases. Finally, results are visualized to understand the route ridership and geographical
+						pattern of trips.  </p>
+			</div>
+
 						</ul>
 					</div>
 
