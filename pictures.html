@@ -1,0 +1,106 @@
+<!--
+
+To do list:
+ - Font compatibility and testing
+ - LaTeX embedding
+ - Review other pages for updates.
+
+ - Add to CV: DSI poster session (11/12/19)
+
+-->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd" >
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="main.css" id="main"/>
+		<link rel="shortcut icon" href="img/twr.ico">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cormorant|Cantarell">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Text">
+		<title> Tim Randolph </title>
+	</head>
+	<body>
+		<!-- MathJax -->
+		<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+		<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+		<div class=wrapper> <!-- Wrapper class, contains entire web page -->
+			<div class=topblock>
+				<div class=topcontent>
+					<div id="name">
+					<h1> <a href="https://prameshk.github.io/"> Pramesh Kumar </a> </h1>
+					</div>
+					<div id="menubar">
+						<a href="index.html#about">ABOUT</a>
+						<a href="index.html#research">RESEARCH</a>
+						<a href="index.html#teaching">TEACHING</a>
+						<a href="index.html#service">SERVICE</a>
+						<a href="pictures.html">PICTURES</a>
+						<a href="pdfs/cv.pdf">CV</a>
+						<a href="blog.html">BLOG</a>
+					</div>
+				</div>
+			</div>
+
+
+			<div class=centerblock>
+				<div class=maintext>
+					<div class=mainsection>
+						<a class="anchor" name="photos"></a>
+						<div class=lalign >
+							<h2> Me at ITE Student Leadership Summit, 2018 </h2>
+							<div class="lalign" id="mephoto">
+								<img src="img/SLS_4927.jpg" height="250px">
+							</div>
+						</div>
+
+						<div class=lalign >
+							<h2> Transit Lab with Prof. Nigel Wilson </h2>
+							<div class="lalign" id="mephoto">
+								<img src="img/transit_lab.jpg" height="250px">
+							</div>
+						</div>
+
+
+						<a class="anchor" name="about"></a>
+					</div>
+				</div> <!-- maintext -->
+			</div> <!-- centerblock -->
+
+					<!-- create collapsible objects -->
+					<script>
+						var coll = document.getElementsByClassName("collapsible");
+						var i;
+
+						for (i = 0; i < coll.length; i++) {
+						  coll[i].addEventListener("click", function() {
+							this.classList.toggle("active");
+							var content = this.nextElementSibling;
+							content.classList.toggle("open");
+						  });
+						}
+
+						var coll = document.getElementsByClassName("book");
+						var i;
+
+						for (i = 0; i < coll.length; i++) {
+							  coll[i].addEventListener("click", function() {
+							this.classList.toggle("book-active");
+							var content = this.nextElementSibling;
+							content.classList.toggle("open");
+						  });
+						}
+					</script>
+
+			<div class=bottomblock>
+				<div class=bottomtext>
+					CONTACT: [LAST NAME]372@UMN.EDU.
+				</div>
+
+				<div id="copy">
+					<img src="img/cc.png" height="15px" style="display:inline-block; padding:-10px;"> LICENSED UNDER CC BY-SA 2015-2021.
+				</div>
+
+			</div>
+		</div> <!--wrapper -->
+	</body>
+</html>
