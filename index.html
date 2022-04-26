@@ -35,7 +35,7 @@ To do list:
 						<a href="index.html#teaching">TEACHING</a>
 						<a href="index.html#service">SERVICE</a>
 						<a href="pictures.html">PICTURES</a>
-						<a href="pdfs/cv.pdf">CV</a>
+						<a href="https://www.dropbox.com/s/4jtnc3mtjwopj7k/cv.pdf?dl=0">CV</a>
 						<a href="blog.html">BLOG</a>
 					</div>
 				</div>
@@ -54,26 +54,44 @@ To do list:
 						</div>
 						<a class="anchor" name="about"></a>
 						<div>
-							<p> I'm a PhD candidate in the
+							<p> Hello!, I'm a PhD candidate in the
 							<a href="https://cse.umn.edu/cege">Department of Civil, Environmental, and Geo-Engineering</a>
 							at the University of Minnesota, advised by <a href="https://cse.umn.edu/cege/faculty/alireza-khani">Alireza Khani</a>. </p>
 
-							<p> In general, I'm interested in Emerging Public Transit Technologies. Specifically, I'm interested in</p>
-
+							<p> In general, I'm interested in researching public transit and its emerging technologies. Specifically, I'm interested on problems associated to</p>
 							<ul>
-								<li class="uncollapsible"> Transit operations and planning </li>
-								<li class="uncollapsible"> Transit integration with emerging modes (ridesharing, autonomous vehicles, drones, etc.) </li>
-								<li class="uncollapsible"> Uncertainty modeling in transportation </li>
-								<li class="uncollapsible"> Transportation systems optimization </li>
+								<li class="collapsible"> Transit operations and planning </li>
+								<div class="content">
+										<ul>
+											<li class="uncollapsible"> Transit automated data (AFC, APC, AVL) mining </li>
+												<li class="uncollapsible"> Transit network design </li>
+												<li class="uncollapsible"> Transit scheduling </li>
+												<li class="uncollapsible"> Transit route choice </li>
+												<li class="uncollapsible"> Transit assignmnet </li>
+
+										</ul>
+										</div>
+								<li class="collapsible"> Transit integration with emerging modes  </li>
+								<div class="content">
+										<ul>
+												<li class="uncollapsible"> Ridesharing </li>
+												<li class="uncollapsible"> Autonomous vehicles </li>
+												<li class="uncollapsible"> Drones  </li>
+												<li class="uncollapsible"> Park-and-ride  </li>
+												<li class="uncollapsible"> Transit electrification </li>
+										</ul>
+									</div>
+								<li class="collapsible"> Uncertainty modeling in Transportation </li>
+								<div class="content">
+										<ul>
+												<li class="uncollapsible"> Stochastic shortest path </li>
+												<li class="uncollapsible"> Day-to-day route choice </li>
+												<li class="uncollapsible"> Transit reliability </li>
+										</ul>
+									</div>
 							</ul>
-
-
 							<p>
-								My research develops routing algorithms...
-							</p>
-
-							<p>
-							If you'd like to chat, please email me at [LAST NAME]372@umn.edu.
+							If you'd like to chat about any of the above topics, please email me at [LAST NAME]372@umn.edu.
 							</p>
 						</div>
 					</div>
@@ -97,7 +115,7 @@ To do list:
 								<div class="content">
 									<br />
 									<img src="img/tapp1.jpg" width="300"/>
-									Experimental evidence shows that the uncertainty in travel time causes transit passengers
+									Abstract: Experimental evidence shows that the uncertainty in travel time causes transit passengers
 									to employ "strategies" when traveling between various origin-destination pairs.
 									Such strategic behavior helps passengers adapt to the varying traffic conditions in the
 									network. The current dissertation develops modeling frameworks to predict strategic
@@ -134,7 +152,7 @@ To do list:
 	 								<div class="content">
 	 									<br />
 	 									<img src="img/green_am_E.PNG" width="300"/>
-	 									Development of an origin-destination (OD) demand matrix is crucial for transit planning. The development process is facilitated by transit automated data, making it possible to mine boarding and alighting patterns on an individual basis. This thesis presents novel methods for estimating transit OD matrix using automatically collected data. Depending on the type of transit automated data, there are two methods presented. A novel trip chaining method which uses Automatic Fare Collection (AFC), Automatic Vehicle Location (AVL), and General Transit Feed Specification (GTFS) data is proposed to infer the most likely trajectory of individual transit passenger. The method relaxes the assumptions on various parameters used in the existing trip chaining algorithms such as transfer walking distance threshold, buffer distance for selecting the boarding location, the time window for selecting the vehicle trip, etc. The thesis also proposes a method for estimating the transit route origin-destination (OD) matrix utilizing Automatic Passenger Count (APC) data. It uses $l_0$ norm regularizer, which leverages the sparsity present in the actual OD matrix. The technique is popularly known as compressed sensing (CS). The applications of both methods using automated data from Twin Cities, MN are also presented. The results show improved accuracy and more inference rate in calculating the OD matrix using trip chaining. Similarly, compressed sensing was found to work impressively well in evaluating transit route OD matrix within small errors.
+	 									Abstract: Development of an origin-destination (OD) demand matrix is crucial for transit planning. The development process is facilitated by transit automated data, making it possible to mine boarding and alighting patterns on an individual basis. This thesis presents novel methods for estimating transit OD matrix using automatically collected data. Depending on the type of transit automated data, there are two methods presented. A novel trip chaining method which uses Automatic Fare Collection (AFC), Automatic Vehicle Location (AVL), and General Transit Feed Specification (GTFS) data is proposed to infer the most likely trajectory of individual transit passenger. The method relaxes the assumptions on various parameters used in the existing trip chaining algorithms such as transfer walking distance threshold, buffer distance for selecting the boarding location, the time window for selecting the vehicle trip, etc. The thesis also proposes a method for estimating the transit route origin-destination (OD) matrix utilizing Automatic Passenger Count (APC) data. It uses $l_0$ norm regularizer, which leverages the sparsity present in the actual OD matrix. The technique is popularly known as compressed sensing (CS). The applications of both methods using automated data from Twin Cities, MN are also presented. The results show improved accuracy and more inference rate in calculating the OD matrix using trip chaining. Similarly, compressed sensing was found to work impressively well in evaluating transit route OD matrix within small errors.
 	 								</div>
 	 							 </ul>
 
@@ -155,7 +173,7 @@ To do list:
 							<div class="content">
 								<br />
 								<img src="img/uncapacitated_flow-1.PNG" width="450"/>
-								Most public transportation services deviate from the published schedule. To cope with the delay caused by the unreliable service, passengers use online information about the bus arrival time that affects their route choice behavior. Current schedule-based transit assignment models fail to capture the passengers' adaptive response to unreliable service, which causes an inaccurate estimation of passenger wait time and passenger loads on various transit routes. The current study proposes schedule-based transit assignment models that incorporate online bus arrival information when modeling the passenger route choice in a stochastic and time-dependent transit network. We propose that passengers employ strategies when traveling between different origin-destination pairs not only due to the limited capacity of vehicles but also to cope with the transit delay. The passenger routing problem is modeled as a Markov Decision Process, and efficient algorithms are proposed to solve this problem. Depending on the vehicle capacity, two types of assignment models are presented, namely, uncapacitated and capacitated assignments. When penalties for arriving at the destination outside the arrival time window are not applied, the uncapacitated assignment problem is formulated as a linear program. On the other hand, the capacitated assignment is formulated as a variational inequality problem, for which an efficient MSA-based heuristic solution algorithm is proposed. Computational experiments are presented for a schedule-based transit network.
+								Abstract: Most public transportation services deviate from the published schedule. To cope with the delay caused by the unreliable service, passengers use online information about the bus arrival time that affects their route choice behavior. Current schedule-based transit assignment models fail to capture the passengers' adaptive response to unreliable service, which causes an inaccurate estimation of passenger wait time and passenger loads on various transit routes. The current study proposes schedule-based transit assignment models that incorporate online bus arrival information when modeling the passenger route choice in a stochastic and time-dependent transit network. We propose that passengers employ strategies when traveling between different origin-destination pairs not only due to the limited capacity of vehicles but also to cope with the transit delay. The passenger routing problem is modeled as a Markov Decision Process, and efficient algorithms are proposed to solve this problem. Depending on the vehicle capacity, two types of assignment models are presented, namely, uncapacitated and capacitated assignments. When penalties for arriving at the destination outside the arrival time window are not applied, the uncapacitated assignment problem is formulated as a linear program. On the other hand, the capacitated assignment is formulated as a variational inequality problem, for which an efficient MSA-based heuristic solution algorithm is proposed. Computational experiments are presented for a schedule-based transit network.
 							</div>
 
 							<li class="collapsible">
@@ -168,7 +186,7 @@ To do list:
 								<br />
 								<img src="img/flow_chart-1.PNG" width="450"/>
 
-								Transit network design is the fundamental problem that involves finding routes and corresponding frequencies in a transportation network to serve a given demand cost-effectively. It would be na\"ive for a transit agency to design a network without incorporating passenger behavior. The current study captures the passenger behavior in the network design by proposing a bi-level transit network design model. It considers both passengers' and operator's perspectives in the upper level, including passenger travel time, limited bus fleet, the operating cost of buses, bus capacity, road capacity, and the number of transfers experienced by passengers. The lower level problem is the optimal strategy frequency-based transit assignment model. The design model outputs the optimal transit routes and their operating frequencies. Due to its complexity, the current research develops a tailored branch-and-benders cut algorithm to solve the problem. Numerical experiments on different network instances show the promising performance of the proposed method.
+								Abstract: Transit network design is the fundamental problem that involves finding routes and corresponding frequencies in a transportation network to serve a given demand cost-effectively. It would be na\"ive for a transit agency to design a network without incorporating passenger behavior. The current study captures the passenger behavior in the network design by proposing a bi-level transit network design model. It considers both passengers' and operator's perspectives in the upper level, including passenger travel time, limited bus fleet, the operating cost of buses, bus capacity, road capacity, and the number of transfers experienced by passengers. The lower level problem is the optimal strategy frequency-based transit assignment model. The design model outputs the optimal transit routes and their operating frequencies. Due to its complexity, the current research develops a tailored branch-and-benders cut algorithm to solve the problem. Numerical experiments on different network instances show the promising performance of the proposed method.
 							</div>
 
 							<li type="button" class="collapsible">
@@ -179,7 +197,7 @@ To do list:
 							<div class="content">
 								<br />
 								<img src="img/demand-depot-net.PNG" width="450"/>
-								This study presents an integrated framework for locating depots in a Shared autonomous vehicle (SAV) system under demand uncertainty. A two-stage stochastic mixed integer programming (MIP) model is formulated to optimize the number and locations of depots in a SAV system, where demand uncertainty is represented by multiple scenarios with occurrence probability. Unlike previous studies that consider station-based vehicle relocations, we take into account the dynamics of vehicle movements in the transportation network by forming a trip chain for each AV. This feature, while useful in bringing the model closer to reality, significantly increases the dimension of the problem and thus raise challenges for solving the model efficiently for large-scale problems. An enhanced Benders decomposition-based algorithm with multiple Pareto-optimal cuts via multiple solutions is developed to solve the proposed model. The proposed modelling framework and the solution algorithm are tested using two different sizes of transportation networks. Computational analysis demonstrates that the proposed algorithm is able to handle relatively large instances within acceptable computational cost, and the algorithm is more efficient than the classic Benders algorithm and directly solving the MIP model. Meanwhile, meaningful insights regarding the optimal deployment of depots in SAV systems are also delivered under different parametric and demand pattern settings.
+								Abstract: This study presents an integrated framework for locating depots in a Shared autonomous vehicle (SAV) system under demand uncertainty. A two-stage stochastic mixed integer programming (MIP) model is formulated to optimize the number and locations of depots in a SAV system, where demand uncertainty is represented by multiple scenarios with occurrence probability. Unlike previous studies that consider station-based vehicle relocations, we take into account the dynamics of vehicle movements in the transportation network by forming a trip chain for each AV. This feature, while useful in bringing the model closer to reality, significantly increases the dimension of the problem and thus raise challenges for solving the model efficiently for large-scale problems. An enhanced Benders decomposition-based algorithm with multiple Pareto-optimal cuts via multiple solutions is developed to solve the proposed model. The proposed modelling framework and the solution algorithm are tested using two different sizes of transportation networks. Computational analysis demonstrates that the proposed algorithm is able to handle relatively large instances within acceptable computational cost, and the algorithm is more efficient than the classic Benders algorithm and directly solving the MIP model. Meanwhile, meaningful insights regarding the optimal deployment of depots in SAV systems are also delivered under different parametric and demand pattern settings.
 
 							</div>
 
@@ -191,7 +209,7 @@ To do list:
 							<div class="content">
 								<br />
 								<img src="img/transitFlow.png" width="450"/>
-				             We envision a multimodal transportation system where Mobility-on-Demand (MoD) service is used to serve the first mile and last mile of transit trips. For this purpose, the current research formulates an optimization model for designing an integrated MoD and urban transit system. The proposed model is a mixed-integer non-linear programming model that captures the strategic behavior of passengers in a multimodal network through a passenger assignment model. It determines which transit routes to operate, the frequency of the operating routes, the fleet size of vehicles required in each transportation analysis zone to serve the demand, and the passenger flow on both road and transit networks. A Benders decomposition approach with several enhancements is proposed to solve the given optimization program. Computational experiments are presented for the Sioux Falls multimodal network. The results show a significant improvement in the congestion in the city center with the introduction and optimization of the integrated transportation system. It improves the total number of served passengers and their level of service in comparison to the base optimized transit system. Finally, managerial insights for deploying such multimodal service are provided.
+				             Abstract: We envision a multimodal transportation system where Mobility-on-Demand (MoD) service is used to serve the first mile and last mile of transit trips. For this purpose, the current research formulates an optimization model for designing an integrated MoD and urban transit system. The proposed model is a mixed-integer non-linear programming model that captures the strategic behavior of passengers in a multimodal network through a passenger assignment model. It determines which transit routes to operate, the frequency of the operating routes, the fleet size of vehicles required in each transportation analysis zone to serve the demand, and the passenger flow on both road and transit networks. A Benders decomposition approach with several enhancements is proposed to solve the given optimization program. Computational experiments are presented for the Sioux Falls multimodal network. The results show a significant improvement in the congestion in the city center with the introduction and optimization of the integrated transportation system. It improves the total number of served passengers and their level of service in comparison to the base optimized transit system. Finally, managerial insights for deploying such multimodal service are provided.
 													 		</div>
 
 							<li type="button" class="collapsible">
@@ -203,7 +221,7 @@ To do list:
 								<br />
 								<img src="img/i394.png" width="450"/>
 
-							In transportation networks with stochastic and dynamic travel times, park-and-ride decisions are often made adaptively considering the realized state of traffic. That is, users continue driving towards their destination if the congestion level is low, but may consider taking transit when the congestion level is high. This adaptive behavior determines whether and where people park-and-ride. We propose to use a Markov decision process to model the problem of commuters’ adaptive park-and-ride choice behavior in a transportation network with time-dependent and stochastic link travel times. The model evaluates a routing policy by minimizing the expected cost of travel that leverages the online information about the travel time on outgoing links in making park-and-ride decisions. We provide a case study of park-and-ride facilities located on freeway I-394 in Twin Cities, Minnesota. The results show a significant improvement in the travel time by the use of park-and-ride during congested conditions. It also reveals the time of departure, the state of the traffic, and the location from where park-and-ride becomes an attractive option to the commuters. Finally, we show the benefit of using online routing in comparison to an offline routing algorithm.							</div>
+							Abstract: In transportation networks with stochastic and dynamic travel times, park-and-ride decisions are often made adaptively considering the realized state of traffic. That is, users continue driving towards their destination if the congestion level is low, but may consider taking transit when the congestion level is high. This adaptive behavior determines whether and where people park-and-ride. We propose to use a Markov decision process to model the problem of commuters’ adaptive park-and-ride choice behavior in a transportation network with time-dependent and stochastic link travel times. The model evaluates a routing policy by minimizing the expected cost of travel that leverages the online information about the travel time on outgoing links in making park-and-ride decisions. We provide a case study of park-and-ride facilities located on freeway I-394 in Twin Cities, Minnesota. The results show a significant improvement in the travel time by the use of park-and-ride during congested conditions. It also reveals the time of departure, the state of the traffic, and the location from where park-and-ride becomes an attractive option to the commuters. Finally, we show the benefit of using online routing in comparison to an offline routing algorithm.							</div>
 
 							<li type="button" class="collapsible">
 								Pramesh Kumar, Alireza Khani, Eric Lind, and John Levin.
@@ -214,7 +232,7 @@ To do list:
 							<div class="content">
 								<br />
 								<img src="img/commRoute5.png" width="450"/>
-								<p>This paper studies the potential spread of infectious disease through passenger encounters in a public transit system using automatic passenger count (APC) data. An algorithmic procedure is proposed to evaluate three different measures to quantify these encounters. The first two measures quantify the increased possibility of disease spread from passenger interaction when traveling between different origin–destination pairs. The third measure evaluates an aggregate measure quantifying the relative risk of boarding at a particular stop of the transit route. For calculating these measures, compressed sensing is employed to estimate a sparse passenger flow matrix planted in the underdetermined system of equations obtained from the APC data. Using the APC data of Route 5 in Minneapolis/St. Paul region during the COVID-19 pandemic, it was found that all three measures grow abruptly with the number of passengers on board. The passenger contact network is densely connected, which further increases the potential risk of disease transmission. To reduce the relative risk, it is proposed to restrict the number of passengers on-board and analyze the effect of this using a simulation framework. It was found that a considerable reduction in the relative risk can be achieved when the maximum number of passengers on-board is restricted below 15. To account for the reduced capacity and still maintain reasonable passenger wait times, it would then be necessary to increase the frequency of the route. </p>
+								<p>Abstract: This paper studies the potential spread of infectious disease through passenger encounters in a public transit system using automatic passenger count (APC) data. An algorithmic procedure is proposed to evaluate three different measures to quantify these encounters. The first two measures quantify the increased possibility of disease spread from passenger interaction when traveling between different origin–destination pairs. The third measure evaluates an aggregate measure quantifying the relative risk of boarding at a particular stop of the transit route. For calculating these measures, compressed sensing is employed to estimate a sparse passenger flow matrix planted in the underdetermined system of equations obtained from the APC data. Using the APC data of Route 5 in Minneapolis/St. Paul region during the COVID-19 pandemic, it was found that all three measures grow abruptly with the number of passengers on board. The passenger contact network is densely connected, which further increases the potential risk of disease transmission. To reduce the relative risk, it is proposed to restrict the number of passengers on-board and analyze the effect of this using a simulation framework. It was found that a considerable reduction in the relative risk can be achieved when the maximum number of passengers on-board is restricted below 15. To account for the reduced capacity and still maintain reasonable passenger wait times, it would then be necessary to increase the frequency of the route. </p>
 							</div>
 
 							<li type="button" class="collapsible">
@@ -227,7 +245,7 @@ To do list:
 								<br />
 								<img src="img/trs.png" width="450"/>
 
-								<p>  Due to limited transit network coverage and infrequent service, suburban commuters often face the transit first mile/last mile (FMLM) problem. To deal with this, they either drive to a park-and-ride location to take transit, use carpooling, or drive directly to their destination to avoid inconvenience. Ridesharing, an emerging mode of transportation, can solve the transit first mile/last mile problem. In this setup, a driver can drive a ride-seeker to a transit station, from where the rider can take transit to her respective destination. The problem requires solving a ridesharing matching problem with the routing of riders in a multimodal transportation network. We develop a transit-based ridesharing matching algorithm to solve this problem. The method leverages the schedule-based transit shortest path to generate feasible matches and then solves a matching optimization program to find an optimal match between riders and drivers. The proposed method not only assigns an optimal driver to the rider but also assigns an optimal transit stop and a transit vehicle trip departing from that stop for the rest of the rider’s itinerary. We also introduce the application of space-time prism (STP) (the geographical area which can be reached by a traveler given the time constraints) in the context of ridesharing to reduce the computational time by reducing the network search. An algorithm to solve this problem dynamically using a rolling horizon approach is also presented. We use simulated data obtained from the activity-based travel demand model of Twin Cities, MN to show that the transit-based ridesharing can solve the FMLM problem and save a significant number of vehicle-hours spent in the system.  </p>
+								<p> Abstract: Due to limited transit network coverage and infrequent service, suburban commuters often face the transit first mile/last mile (FMLM) problem. To deal with this, they either drive to a park-and-ride location to take transit, use carpooling, or drive directly to their destination to avoid inconvenience. Ridesharing, an emerging mode of transportation, can solve the transit first mile/last mile problem. In this setup, a driver can drive a ride-seeker to a transit station, from where the rider can take transit to her respective destination. The problem requires solving a ridesharing matching problem with the routing of riders in a multimodal transportation network. We develop a transit-based ridesharing matching algorithm to solve this problem. The method leverages the schedule-based transit shortest path to generate feasible matches and then solves a matching optimization program to find an optimal match between riders and drivers. The proposed method not only assigns an optimal driver to the rider but also assigns an optimal transit stop and a transit vehicle trip departing from that stop for the rest of the rider’s itinerary. We also introduce the application of space-time prism (STP) (the geographical area which can be reached by a traveler given the time constraints) in the context of ridesharing to reduce the computational time by reducing the network search. An algorithm to solve this problem dynamically using a rolling horizon approach is also presented. We use simulated data obtained from the activity-based travel demand model of Twin Cities, MN to show that the transit-based ridesharing can solve the FMLM problem and save a significant number of vehicle-hours spent in the system.  </p>
 						</div>
 
 							<li class="collapsible">
@@ -240,7 +258,7 @@ To do list:
 								<br />
 								<img src="img/L_heatmap_SB.png" width="450"/>
 
-								<p>  The special events such as games, concerts, state fairs, etc. attract a large amount of population, which requires proper planning of transit services to meet the induced demand. Previous studies have proposed methods for estimating an average daily weekday demand, which have an inherent disadvantage in estimating the demand for a special event. We solve an idealized version of this problem i.e., we decompose a special event affected demand matrix into a regular and an outlier matrix. We start with detecting the special events in large scale transit data using the Mahalanobis distance, an outlier detection method for high dimensional data. Then, a special event demand is evaluated using state-of-the-art dimensionality reduction technique known as robust principal component analysis (RPCA), which is formulated as a convex optimization program. We show the application of the proposed method using Automatic Passenger Count (APC) data from Twin Cities, MN, USA. The methods are general and can be applied to any type of data related to the flow of passengers available with respect to time. Of practical interest, the methods are scalable to large-scale transit systems.  </p>
+								<p> Abstract: The special events such as games, concerts, state fairs, etc. attract a large amount of population, which requires proper planning of transit services to meet the induced demand. Previous studies have proposed methods for estimating an average daily weekday demand, which have an inherent disadvantage in estimating the demand for a special event. We solve an idealized version of this problem i.e., we decompose a special event affected demand matrix into a regular and an outlier matrix. We start with detecting the special events in large scale transit data using the Mahalanobis distance, an outlier detection method for high dimensional data. Then, a special event demand is evaluated using state-of-the-art dimensionality reduction technique known as robust principal component analysis (RPCA), which is formulated as a convex optimization program. We show the application of the proposed method using Automatic Passenger Count (APC) data from Twin Cities, MN, USA. The methods are general and can be applied to any type of data related to the flow of passengers available with respect to time. Of practical interest, the methods are scalable to large-scale transit systems.  </p>
 						</div>
 
 
@@ -254,7 +272,7 @@ To do list:
 							<br />
 							<img src="img/delay.png" width="450"/>
 
-							<p>  Among the many ways to improve a transit system is a reduction in travel time as
+							<p>  Abstract: Among the many ways to improve a transit system is a reduction in travel time as
 									experienced by the passenger. Hence, passenger waiting times remain a topic of
 									interest among transit planners. In this study, the effects of transit vehicle delays on
 									passenger waiting time is investigated, as well as the effects of transfer status, boarding
@@ -280,7 +298,7 @@ To do list:
 						<br />
 						<img src="img/Figure 9.png" width="450"/>
 
-						<p>  The development of an origin–destination (OD) demand matrix is crucial for transit planning. With the help of automated
+						<p>  Abstract: The development of an origin–destination (OD) demand matrix is crucial for transit planning. With the help of automated
 							data, it is possible to estimate a stop-level OD matrix. We propose a novel method for estimating transit route OD matrix
 							using automatic passenger count (APC) data. The method uses l0 norm regularizer, which leverages the sparsity in the actual
 							OD matrix. The technique is popularly known as compressed sensing (CS). We also discuss the mathematical properties of
@@ -301,7 +319,7 @@ To do list:
 					<br />
 					<img src="img/green_am_E.png" width="450"/>
 
-					<p>  Development of an origin-destination demand matrix is crucial for transit planning. The development process is facilitated by automated transit smart card data, making it possible to mine
+					<p>  Abstract: Development of an origin-destination demand matrix is crucial for transit planning. The development process is facilitated by automated transit smart card data, making it possible to mine
 						boarding and alighting patterns on an individual basis. This research proposes a novel trip
 						chaining method which uses Automatic Fare Collection (AFC) and General Transit Feed
 						Specification (GTFS) data to infer the most likely trajectory of individual transit passengers. The
